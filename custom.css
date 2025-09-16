@@ -1,0 +1,1948 @@
+/*General css style*/
+body {
+    font-family: "Montserrat", serif !important;
+}
+
+.elementor-widget-heading,
+.elementor-widget-text-editor,
+.elementor-widget-button,
+.elementor-heading-title,
+.elementor-button {
+    font-family: "Montserrat", serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: "Montserrat", serif !important;
+}
+
+/********* THANK YOU PAGE STYLE START **********/
+.thank-you-main-wrapper {
+    background-image: linear-gradient(90deg, #b3f3d2 0%, #fbc41a 100%);
+
+}
+
+.Thank-you-box {
+    background: red;
+    width: 60% !important;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-image: linear-gradient(90deg, #d8f3e5 0%, #f3dc93 100%);
+    padding: 4rem;
+}
+
+.Thank-you-box p {
+    width: 85%;
+    margin: 0 auto;
+    color: #000000;
+    line-height: 28px;
+    font-size: 15px;
+}
+
+.Thank-you-box strong {
+    font-weight: 500;
+    color: #000000;
+}
+
+.Thank-you-box p a {
+    color: #044f28;
+    font-weight: 600;
+}
+
+/********* THANK YOU PAGE STYLE END **********/
+
+
+.nitropack-footer,
+.xzDjUDMWYBOjIQTAu52N2zZEMOzNNmctheme--light {
+    display: none !important;
+}
+
+.npf {
+    display: none !important;
+}
+
+.copyright-footer {
+    position: absolute;
+    bottom: -50px;
+}
+
+.single-post .type-post img {
+    max-width: 66%;
+    max-height: 450px;
+}
+
+.pum .theme-1737 textarea {
+    height: 60px;
+}
+
+.pum .theme-1737 form p {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pum .theme-1737 form input,
+.pum .theme-1737 form textarea {
+    width: 60%;
+    margin: 5px !important;
+}
+
+.pum .theme-1737 .wpcf7-spinner {
+    position: absolute;
+}
+
+.single .page-header {
+    text-align: center;
+}
+
+.clearButton {
+    transform: unset !important;
+    width: 50px !important;
+    font-size: 0px !important;
+}
+
+.page-id-60 .elementskit-infobox a {
+    color: #0D572E;
+}
+
+.galleryimg img {
+    height: 240px !important;
+}
+
+.pum-container input.wpcf7-form-control.has-spinner.wpcf7-submit {
+    background: #0D572E;
+    color: #fff;
+    border: unset;
+}
+
+.pum-container input.wpcf7-form-control.wpcf7-text {
+    margin: 10px 0;
+}
+
+div#qlwapp {
+    display: flex !important;
+    left: 30px !important;
+}
+
+.medialine {
+    overflow: hidden;
+}
+
+.medialine p {
+    top: 3px !important;
+    white-space: nowrap;
+    position: absolute;
+    -webkit-animation: mymove 5s linear infinite;
+    /* Safari 4.0 - 8.0 */
+    white-space: nowrap;
+    animation: mymove 5s linear infinite alternate;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: -140px;
+    }
+}
+
+@keyframes mymove {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: -140px;
+    }
+}
+
+.job-frm-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.job-frm-cols.job-frm-cols-50 {
+    width: 50%;
+}
+
+.job-frm-cols.job-frm-cols-100 {
+    width: 100%;
+}
+
+.job-frm-wrap h3 {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.job-frm-cols.job-frm-cols-50 p {
+    width: 98%;
+}
+
+.job-frm-wrap input.wpcf7-form-control.wpcf7-text.form-input,
+.job-frm-wrap input[type=date],
+.job-frm-wrap .wpcf7-form-control.wpcf7-textarea {
+    width: 100%;
+}
+
+.job-frm-cols.job-frm-cols-100 p {
+    width: 99%;
+}
+
+.job-frm-row.work-exp-wrap {
+    margin-top: 30px;
+}
+
+.job-frm-row.work-exp-wrap label {
+    margin-bottom: 20px !important;
+}
+
+.job-frm-wrap p {
+    margin-bottom: 0 !important;
+}
+
+.page-id-1871 h3.eael-contact-form-7-title {
+    margin-bottom: 50px;
+}
+
+.work-exp-table {
+    overflow-x: auto;
+}
+
+#cf7mls-back-btn-cf7mls_step-6 {
+    display: none;
+}
+
+/* Home page style start */
+/* Main title style */
+.mail-title h2 {
+    position: relative;
+    display: inline-block;
+}
+
+.mail-title h2:before {
+    content: '';
+    width: 140px;
+    height: 3px;
+    display: block;
+    position: absolute;
+    background: #ffc612;
+    bottom: -15px;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about-banner {
+    position: relative;
+}
+
+.about-banner:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    /*     background-image: linear-gradient(90deg, rgb(28, 189, 100, 0.4) 0%, rgba(13, 87, 46, 0.4) 100%); */
+}
+
+.about-center-box .center-box-text {
+    position: absolute;
+    left: 50%;
+    bottom: 1rem;
+    width: auto;
+    background: #ffffff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 19px 2px rgba(0, 0, 0, 0.1);
+    transform: translateX(-50%);
+    background: linear-gradient(45deg, #044f28, rgba(255, 198, 18, 0.8));
+}
+
+.center-box-text h4 {
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 0;
+}
+
+.center-box-text p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff;
+    /*     width: 48%; */
+    margin: 0 auto;
+}
+
+.why-choose-section {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.product-box {
+    position: relative;
+}
+
+.product-box:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(0 0 0 / 50%);
+    left: 0;
+    top: 0;
+    z-index: 1;
+    border-radius: 10px
+}
+
+.testimonial-section .mail-title h2:before {
+    background: #ffffff;
+}
+
+.testimonial-section {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.testi-slide-box .elementskit-commentor-content p {
+    min-height: 160px !important;
+}
+
+.testi-slide-box .swiper-pagination {
+    bottom: -40px !important;
+}
+
+.testi-slide-box .elementskit-watermark-icon>svg {
+    width: 140px !important;
+    opacity: 0.12 !important;
+}
+
+.our-journey {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.testi-slide-box .ekit-wid-con .ekit_testimonial_style_2 {
+    padding: 25px 20px;
+}
+
+.about-title-bar {
+    font-weight: 600;
+    font-size: 30px;
+    /*     white-space: nowrap; */
+}
+
+.inline-text-icon a {
+    color: #000000;
+    transition: 0.3s;
+    padding-left: 5px;
+    font-weight: 400;
+}
+
+.inline-text-icon {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.inline-text-icon .icon-phone-call1 {
+    font-size: 16px;
+}
+
+.inline-text-icon:hover,
+.inline-text-icon a:hover {
+    color: #044f28;
+}
+
+.gradient-box-wrapper h3 {
+    margin-bottom: 7px;
+}
+
+#our-journey .skip-lazy {
+    border-radius: 10px 10px 0 0;
+}
+
+.mover-1 {
+    /*     height: 150px; */
+    width: max-content;
+    /*     position: absolute;
+    overflow-x: hidden;
+    top: 0;
+    left: 0; */
+    animation: moveSlideshow 12s linear infinite;
+}
+
+@keyframes moveSlideshow {
+    100% {
+        transform: translateX(-500px);
+    }
+}
+
+.mover-1:hover {
+    animation-play-state: paused;
+}
+
+.mover-1 a {
+    color: #ffffff;
+    margin-right: 16px;
+    transition: 0.5s;
+    position: relative;
+}
+
+.mover-1 a:before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: #ffc612;
+    position: absolute;
+    top: 7px;
+    left: -12px;
+    border-radius: 10px;
+}
+
+.mover-1 a:hover {
+    color: #ffc612;
+}
+
+.product-box .ekit-wid-con:after {
+    background: #ffc612;
+    width: 100%;
+    height: 0%;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: .3s linear;
+    opacity: 0;
+    z-index: 1;
+    border-radius: 8px;
+}
+
+.product-box:hover .ekit-wid-con:after {
+    height: 100%;
+    opacity: 1;
+    transition: .3s linear;
+}
+
+.product-box:hover i {
+    color: #000000 !important;
+}
+
+.product-box:hover .box-body h3 {
+    color: #000000 !important;
+}
+
+.product-box .box-body p,
+.product-box .box-footer {
+    display: none;
+    transition: .2s linear;
+}
+
+.product-box:hover .box-body p,
+.product-box:hover .box-footer {
+    transition: .3s linear;
+    display: block;
+    position: relative;
+    color: #000 !important;
+    z-index: 2;
+}
+
+.product-box .elementskit-infobox {
+    min-height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-choose-section h3 {
+    margin-bottom: 8px;
+}
+
+.why-choose-inner .elementor-widget-container {
+    min-height: 170px;
+}
+
+.inquiry-form {
+    background: #ffffff;
+    padding: 10px 30px 20px;
+    text-align: center;
+}
+
+.inquiry-form h3 {
+    margin-bottom: 2rem;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.inquiry-form .custom-row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 15px;
+}
+
+.inquiry-form .custom-row .col-md-6 {
+    max-width: 50%;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.inquiry-form .custom-row p {
+    text-align: left !important;
+}
+
+.contact-form-custom form .inquiry-form input {
+    width: 100%;
+    margin: 0 !important;
+    border-color: #bfbfbf;
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-size: 15px;
+}
+
+.inquiry-form .custom-row .wpcf7-form-control {
+    width: 100%;
+    margin: 0 !important;
+}
+
+.inquiry-form .custom-row .wpcf7-form-control.wpcf7-select {
+    background: #ffffff;
+}
+
+.inquiry-form .custom-row label {
+    margin-bottom: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #4d4d4d;
+    text-align: left;
+}
+
+.inquiry-form .custom-row .col-md-12 {
+    max-width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.inquiry-popup-wrapper .wpcf7-response-output {
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
+}
+
+form .inquiry-form .custom-row textarea {
+    width: 100%;
+    margin: 0 !important;
+    border-color: #666666;
+    border-radius: 4px;
+    padding: 0.59rem 0.5rem;
+    font-size: 15px;
+    resize: none;
+}
+
+#popmake-2099 {
+    width: 70% !important;
+    margin: 0 auto;
+    left: 50% !important;
+    transform: translateX(-50%);
+    padding: 0 !important;
+}
+
+.inquiry-popup-wrapper .title {
+    text-align: center;
+
+}
+
+.inquiry-popup-wrapper .title strong {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.inquiry-popup-wrapper .flex-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    margin: 0 auto;
+    /*     max-width: 1200px; */
+}
+
+#slider-container,
+#form-container {
+    flex: 1;
+    min-width: 300px;
+    margin: 0;
+}
+
+.contact-form-custom form .inquiry-form select {
+    width: 100%;
+    margin: 0 !important;
+    border-color: #bfbfbf;
+    border-radius: 5px;
+    padding: 0.59rem 0.5rem;
+    font-size: 15px;
+    background: transparent;
+}
+
+.inquiry-form .custom-row .wpcf7-not-valid-tip {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.contact-form-custom .wpcf7-response-output {
+    margin: 0 2em 1rem !important;
+    font-size: 14px;
+    text-align: center;
+}
+
+.pum-theme-1737,
+.pum-theme-default-theme {
+    backdrop-filter: blur(5px);
+}
+
+#form-container {
+    min-height: 500px;
+}
+
+.advance-video iframe {
+    background-color: transparent !important;
+    border: 1px solid #044f28 !important;
+    padding: 6px;
+    border-bottom: 0 !important;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+
+/* Home page style end */
+
+/* Prodcut page style start */
+.post-6106 header.page-header {
+    display: none;
+}
+
+.contact-social-icon ul li a {
+    color: transparent !important;
+}
+
+.product-content-para p {
+    width: 90%;
+}
+
+.Production-plant-wrapper .elementor-icon-box-icon {
+    border: 1px solid #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px 1px #f4f4f4;
+    position: relative;
+    display: block;
+    padding: 1.5rem 1.5rem;
+    margin-right: 1.5rem !important;
+}
+
+.Production-plant-wrapper .elementor-icon-box-title {
+    margin-bottom: 8px;
+}
+
+.key-features .elementor-widget-container {
+    min-height: 130px;
+}
+
+.key-features .elementor-widget-container h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.benefit-box h3 {
+    margin-bottom: 5px;
+    margin-top: -4px;
+}
+
+.benefit-box p {
+    width: 95%;
+}
+
+.Serve-box .elementor-icon {
+    background: #ebfbf3;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.custom-accordion .elementor-accordion-item {
+    border: 1px solid #e0e0e0 !important;
+    margin-bottom: 0.5rem;
+    border-radius: 6px;
+}
+
+.custom-accordion .elementor-tab-title {
+    padding: 22px 20px;
+    border-radius: 5px;
+    border: none !important;
+}
+
+.custom-accordion .elementor-accordion-item p {
+    margin-bottom: 0;
+}
+
+table.t-table thead th {
+    padding: 8px 12px;
+    text-align: left;
+}
+
+table.t-table tbody tr td {
+    padding: 5px 10px;
+}
+
+table.t-table tbody tr:nth-child(odd) td {
+    background: #e3e8dd;
+}
+
+table.t-table thead {
+    background: #044f28;
+    color: #ffffff;
+}
+
+/* Products Page Modal popup form style */
+.pum-responsive-micro {
+    padding: 0 !important;
+}
+
+.modal-slide-form .inquiry-form {
+    padding: 30px 20px 20px;
+    border-radius: 10px;
+}
+
+.modal-slide-form .inquiry-form textarea {
+    height: 75px;
+}
+
+.modal-slide-form .inquiry-form .custom-row .wpcf7-form-control {
+    padding: .4rem 1rem;
+    font-size: 14px;
+}
+
+.modal-slide-form .inquiry-form .custom-row label {
+    font-size: 12px;
+}
+
+.modal-slide-form .inquiry-form h3 {
+    display: none;
+}
+
+.pum-theme-1739 .pum-content+.pum-close,
+.pum-theme-enterprise-blue .pum-content+.pum-close {
+    right: 5px !important;
+    top: 5px !important;
+    height: 25px !important;
+    width: 25px !important;
+    line-height: 17px !important;
+    background-color: rgb(13 87 46) !important;
+}
+
+.modal-slide-form .inquiry-form .wpcf7-submit {
+    padding: .3rem 1rem;
+    font-size: 15px;
+    width: 100%;
+}
+
+.modal-slide-form .wpcf7 form .wpcf7-response-output {
+    margin: 0em 0.5em 1em;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+
+
+/* Prodcut page style end */
+/* Top mega menu customize style start */
+.Top-main-menu li {
+    margin: 0 !important;
+}
+
+.Top-main-menu .elementskit-submenu-panel {
+    padding: 10px 0 !important;
+    background-color: #ffffff !important;
+}
+
+.Top-main-menu .elementskit-submenu-panel a.dropdown-item {
+    padding: 7px 15px !important;
+    font-weight: 400 !important;
+    font-family: "Montserrat", serif !important;
+}
+
+.Top-main-menu .elementskit-submenu-panel a.dropdown-item:hover {
+    background-color: inherit !important;
+    color: #044f28 !important;
+}
+
+.Top-main-menu .elementskit-submenu-panel a.dropdown-item .elementskit-submenu-indicator {
+    transform: rotate(-90deg);
+    font-size: 10px;
+}
+
+.Top-main-menu .elementskit-submenu-panel>li:hover>a {
+    color: #044f28 !important;
+}
+
+.Top-main-menu .elementskit-submenu-indicator {
+    border: none !important;
+}
+
+/* Top mega menu customize style end */
+/* Contact Us page style start */
+.contact-shadow-box {
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
+    background: #ffffff;
+    margin-right: 1.5rem;
+}
+
+.top-inner-page-header {
+    padding: 6rem 0;
+}
+
+.top-inner-page-header p {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 26px;
+}
+
+.gradient-contact-box .wpcf7 form {
+    overflow: inherit;
+}
+
+.gradient-contact-box .inquiry-form {
+    padding: 0;
+    background: transparent;
+}
+
+.gradient-contact-box .inquiry-form h3 {
+    display: none;
+}
+
+.gradient-contact-box .wpcf7 form {
+    overflow: inherit;
+    background: transparent;
+}
+
+.gradient-contact-box .inquiry-form .custom-row label {
+    color: #ffffff;
+}
+
+.gradient-contact-box .inquiry-form .wpcf7-form-control {
+    background: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.gradient-contact-box .wpcf7-form-control.wpcf7-select {
+    background: transparent !important;
+}
+
+.gradient-contact-box .inquiry-form .wpcf7-not-valid-tip {
+    color: #ffc6c6;
+}
+
+.gradient-contact-box .inquiry-form .wpcf7-form-control:focus-visible {
+    border-color: #ffffff !important;
+}
+
+.gradient-contact-box .inquiry-form .custom-row textarea {
+    height: 100px;
+    ;
+}
+
+.location-shadow-box {
+    margin: -150px auto 0;
+    padding-bottom: 4rem;
+}
+
+.form-touch-section {
+    padding-bottom: 4rem;
+}
+
+.gradient-contact-box .inquiry-form select option {
+    background: #ffffff;
+    color: #000000;
+}
+
+.gradient-contact-box .inquiry-form .wpcf7-submit {
+    width: 100%;
+    background: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    color: #0c0c0c;
+}
+
+.gradient-contact-box .inquiry-form .wpcf7-submit:hover {
+    background: #ebebeb;
+}
+
+.gradient-contact-box .wpcf7-response-output {
+    color: #ffffff;
+}
+
+.contact-shadow-box a {
+    color: #7A7A7A;
+}
+
+.contact-shadow-box a:hover,
+.contact-shadow-box a:active {
+    color: #205c26;
+}
+
+.location-shadow-box .elementor-column-gap-default .contact-shadow-box:last-child {
+    margin-right: 0;
+}
+
+.top-inner-page-header .elementor-background-overlay {
+    opacity: 0.6 !important;
+}
+
+.gradient-contact-box .inquiry-form .custom-row .col-md-12 {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.country-select .selected-flag .arrow {
+    margin-top: -3px !important;
+}
+
+/* Contact Us page style end */
+
+/* Download brochure style start */
+.download-brochure-popup h2 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.download-brochure-popup .inquiry-form h3 {
+    display: none;
+}
+
+.download-brochure-popup .inquiry-form .wpcf7-textarea {
+    height: 90px;
+}
+
+/* Download brochure style end */
+
+/* Ethanol product page style start */
+.ethanol-key-section .elementor-widget-container {
+    height: 150px;
+}
+
+/* Ethanol product page style end */
+
+/* About us style start */
+.about-mission-tab .left-pos {
+    padding: 35px 35px 35px 35px !important;
+    background: #ffffff !important;
+    border: none !important;
+    font-size: 20px;
+    font-weight: 600 !important;
+    color: #000000 !important;
+}
+
+.about-mission-tab .left-pos.active {
+    background: linear-gradient(45deg, #044f28, rgba(255, 198, 18, 0.8)) !important;
+    color: #ffffff !important;
+}
+
+.about-mission-tab {
+    margin-top: -35px;
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 15%);
+}
+
+.about-mission-tab .elementkit-nav-item {
+    margin-right: 0 !important;
+    border-right: 1px solid #cecece;
+}
+
+.about-mission-tab .elementkit-tab-content {
+    position: relative;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 50px 80px 50px 60px;
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 15%);
+    color: #000000 !important;
+    border-top: 6px solid #1d5a27;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-mission-tab .elementkit-tab-content .animated h5 {
+    color: #1d5a27;
+    font-weight: 600;
+}
+
+.about-mission-tab .elementkit-tab-content .animated {
+    color: #000000;
+}
+
+.about-mission-tab .elementkit-tab-content .animated h3 {
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.about-mission-tab .left-pos .elementskit-tab-icon {
+    font-size: 26px !important;
+}
+
+.about-mission-tab .elementkit-tab-content ul {
+    list-style-type: disclosure-closed;
+}
+
+.about-mission-tab .elementkit-tab-content ul li {
+    margin-top: 5px;
+}
+
+.founder-section .ekit-heading__description p {
+    margin-bottom: 1rem !important;
+    font-weight: 400 !important;
+    color: #000000;
+}
+
+.award-wrap-content .elementor-widget-heading {
+    margin: 5px 0;
+}
+
+.journey-slider {
+    margin: 50px auto;
+    padding: 0 15px;
+}
+
+.journey-slide {
+    overflow: hidden;
+    padding-right: 14px;
+}
+
+.journey-slide img {
+    max-width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    filter: grayscale(90);
+}
+
+.journey-slide.slick-current img {
+    filter: grayscale(0);
+}
+
+.journey-content {
+    position: relative;
+}
+
+.journey-content:after {
+    position: absolute;
+    width: 95%;
+    top: 24px;
+    left: 0;
+    content: "";
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.journey-year {
+    font-size: 30px;
+    font-weight: bold;
+    color: #c9c9c9;
+    margin: 1rem 0;
+    position: relative;
+    z-index: 1;
+    display: table;
+    padding-right: 20px;
+    background: #044f28;
+    letter-spacing: 1px;
+}
+
+.journey-desc {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #bbbbbb;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: white;
+    font-size: 30px;
+}
+
+.slick-current .journey-year {
+    color: #ecb911;
+}
+
+.slick-current .journey-desc {
+    color: #ffffff;
+}
+
+.journey-slider .slick-arrow {
+    width: 38px;
+    height: 38px !important;
+    z-index: 9;
+    top: 35%;
+    border-radius: 100%;
+    background: #088345 !important;
+}
+
+.journey-slider .slick-arrow:before {
+    font-size: 35px;
+    opacity: 1 !important;
+    border-radius: 100%;
+    position: relative;
+    top: 3px;
+    left: 0px;
+}
+
+.journey-slider .slick-prev {
+    left: -3px;
+}
+
+.journey-slider .slick-next {
+    right: 10px;
+}
+
+.journey-slide img {
+    width: 100%;
+}
+
+.about-presents-section,
+.about-presents-section .elementor-container,
+.about-presents-section .elementor-widget-wrap,
+.about-presents-section .elementor-widget,
+.about-presents-section .elementor-column {
+    position: inherit;
+}
+
+/* About us style end */
+
+/* Inquiry form start */
+.site-main.post-6661 {
+    background: linear-gradient(90deg, rgba(13, 87, 46, 1) 35%, rgba(253, 201, 0, 1) 100%);
+    background-size: 200% 200%;
+    animation: colorSwap 5s ease-in-out infinite;
+    height: 100vh;
+    margin: 0;
+}
+
+@keyframes colorSwap {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.inquiry-logo .elementor-widget-image img {
+    width: 260px;
+}
+
+.single-inquiry-form .inquiry-form {
+    background: #ffffff;
+    padding: 10px 30px 20px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.single-inquiry-form .inquiry-form br {
+    display: none;
+}
+
+.single-inquiry-form .inquiry-form .country-dropdown p {
+    margin-block-end: 0px;
+}
+
+.single-inquiry-form .custom-row .inquiry-form .wpcf7-form-control.wpcf7-select {
+    padding: 9px 16px;
+}
+
+.single-inquiry-form .inquiry-form .custom-row textarea {
+    height: 120px;
+}
+
+.single-inquiry-form .inquiry-form h3 {
+    padding: 25px;
+    background: rgb(13, 87, 46);
+    background: linear-gradient(90deg, rgba(13, 87, 46, 1) 35%, rgba(253, 201, 0, 1) 100%);
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.single-inquiry-form p .wpcf7-submit {
+    padding: 8px 27px;
+    background: rgb(13, 87, 46);
+    color: #ffffff;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.single-inquiry-form p .wpcf7-submit:hover {
+    background: #000000;
+}
+
+.page-id-6661 .elementor.elementor-39,
+.page-id-6661 .elementor.elementor-131 {
+    display: none !important;
+}
+
+/* Inquiry form end */
+
+/* Blog details page start */
+.category-projects h1.entry-title {
+    font-size: 30px;
+    margin-top: 2rem;
+    line-height: 44px;
+    max-width: 1070px;
+    font-weight: 700;
+}
+
+.single-post .type-post.category-projects img {
+    max-width: 100%;
+    max-height: inherit;
+}
+
+.blog-detail-box {
+    padding: 20px 20px;
+    box-shadow: 0 4px 16px 0 rgba(51, 51, 51, 0.1);
+    margin-top: -5px;
+    margin-bottom: 2rem;
+    border-bottom: 3px solid #ffc612;
+}
+
+.blog-detail-box p,
+.blog-detail-box span {
+    font-size: 15px;
+    color: #101010;
+    text-shadow: none;
+}
+
+.blog-detail-box h2,
+.blog-detail-box h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.blog-detail-box ul li,
+.blog-detail-box ol li {
+    font-size: 15px;
+    color: #101010;
+    margin-bottom: 5px;
+}
+
+.blog-detail-box ul li::marker {
+    color: #ffc612;
+}
+
+.blog-detail-box p a {
+    color: #044f28;
+}
+
+.blog-detail-box tr td {
+    padding: 10px 15px;
+}
+
+.blog-detail-box tr td p {
+    margin-bottom: 0;
+}
+
+.blog-detail-box p a span {
+    font-weight: 600 !important;
+    color: #044f28;
+}
+
+/* Blog details page end */
+
+/* Blog list page start  */
+.custom-blog-list .elementor-posts .elementor-post {
+    box-shadow: 9.899px 9.899px 30px 0 rgba(0, 0, 0, .1);
+}
+
+.custom-blog-list .elementor-post__text {
+    background-color: #ffffff;
+    padding: 0 20px 20px;
+}
+
+.custom-blog-list .elementor-post__read-more {
+    background-color: #0D572E;
+    padding: 5px 8px;
+    border-radius: 3px;
+    color: #ffffff !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    transition: 0.5s ease-in-out all;
+}
+
+.custom-blog-list .elementor-post__read-more:hover {
+    background-color: #ffc612;
+
+}
+
+.custom-blog-list .elementor-pagination {
+    padding: 2rem 0 2rem;
+    font-weight: 500;
+}
+
+.custom-blog-list .elementor-pagination .page-numbers {
+    color: #000000;
+}
+
+.custom-blog-list .elementor-posts .elementor-post:hover .elementor-post__read-more {
+    background-color: #ffc612;
+}
+
+/* Blog list page end  */
+
+
+
+/********* RESPONSIVE MEDIA QUERY START **********/
+@media only screen and (max-width:1399px) {
+    #popmake-2099 {
+        width: 85% !important;
+    }
+
+    .top-inner-page-header {
+        padding: 4rem 0;
+    }
+
+    .custom-container-lg .elementor-container {
+        padding: 0 20px;
+    }
+
+    .journey-slider .slick-prev {
+        left: 2px;
+    }
+
+}
+
+@media only screen and (max-width:1330px) {
+
+    .full-wrapper-padd .elementor-column-gap-default,
+    .full-slider-padd .n2-ss-layer-row-inner {
+        padding: 0 15px;
+    }
+
+    .padd-lr-desktop {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+@media only screen and (max-width:1240px) {
+    .award-image-wrap .elementor-widget-container {
+        top: -15px;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    .contact-shadow-box {
+        padding: 20px;
+        border-radius: 20px;
+        margin-right: 10px;
+        width: 24% !important;
+    }
+
+    .contact-shadow-box .icon {
+        font-size: 40px;
+    }
+
+    .contact-shadow-box .elementor-widget:not(:last-child) {
+        margin-block-end: 10px;
+    }
+
+    .contact-shadow-box .elementor-heading-title {
+        font-size: 18px !important;
+    }
+
+    .about-top-text-area h2 {
+        font-size: 24px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .achievement-count-text .elementor-counter-number {
+        font-size: 30px;
+    }
+
+    .achievement-count-text .elementor-counter-number-suffix {
+        font-size: 28px;
+    }
+
+    .about-mission-section .elementkit-nav-link {
+        padding: 26px !important;
+    }
+
+    .about-mission-section .elementkit-nav-link .elementskit-tab-title {
+        font-size: 17px;
+    }
+
+    .about-mission-tab .elementkit-tab-content {
+        padding: 30px 40px 30px 40px;
+    }
+
+    .about-mission-tab .elementkit-tab-content .animated h3 {
+        font-weight: 600;
+        font-size: 24px;
+    }
+
+    .about-mission-tab .elementkit-tab-content .animated h5 {
+        font-size: 16px;
+    }
+
+    .founder-pic-area .elementor-widget-container {
+        text-align: center;
+    }
+
+    .dotted-bg-shape .elementskit-section-title {
+        font-size: 24px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .about-choose-text-area .elementskit-infobox {
+        padding: 20px 30px !important;
+    }
+
+    .about-choose-text-area .elementskit-infobox .elementskit-info-box-title {
+        font-size: 18px !important;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .Top-main-menu .elementskit-submenu- indicator {
+        border: none !important;
+    }
+
+    .Top-main-menu .elementskit-submenu-panel a.dropdown-item .elementskit-submenu-indicator {
+        transform: rotate(0deg);
+    }
+
+    .Top-main-menu .elementskit-submenu-pa {
+        font-weight: 500 !important;
+
+    }
+
+    .Top-main-menu .elementskit-submenu-panel li {
+        border-bottom: 1px solid #e9e9e9;
+    }
+
+    .Top-main-menu .elementskit-submenu-panel {
+        padding: 0 !important;
+        background-color: #f7f7f7;
+    }
+
+    .Top-main-menu .elementskit-submenu-panel>li.current-menu-item>a {
+        color: #155d35 !important;
+        font-weight: 500 !important;
+    }
+
+    #qlwapp .qlwapp-toggle {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .ethanol-key-section .elementor-widget-container {
+        height: 200px;
+    }
+
+    .award-image-wrap .elementor-widget-container {
+        position: relative;
+        top: -25px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    #our-journey .play-btn .skip-lazy {
+        width: 35px;
+    }
+
+    #our-journey .nextend-bullet-bar {
+        position: relative;
+        top: 20px;
+    }
+
+    .about-title-bar {
+        font-size: 24px;
+    }
+
+    #slider-container {
+        display: none;
+    }
+
+    .contact-shadow-box {
+        width: 49% !important;
+        margin: 0 auto 1rem;
+    }
+
+    .about-event-section .wp-caption-text.gallery-caption {
+        font-size: 14px !important;
+    }
+
+    .custom-blog-list .elementor-pagination {
+        padding: 1.5rem 0 1rem;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+
+    .pum .theme-1737 form input,
+    .pum .theme-1737 form textarea {
+        width: 90%;
+    }
+
+    .job-frm-cols.job-frm-cols-50 {
+        width: 100%;
+    }
+
+    .job-frm-row .job-frm-cols-50:nth-child(2) {
+        margin-top: 20px;
+    }
+
+    #our-journey .play-btn .skip-lazy {
+        width: 30px;
+        position: absolute;
+        right: 5px;
+        top: 7px;
+    }
+
+    #our-journey .play-btn {
+        position: absolute;
+    }
+
+    #our-journey .n2-ss-layer {
+        margin-top: 0 !important;
+    }
+
+    .about-title-bar {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .testi-slide-box .elementskit-commentor-content {
+        margin-bottom: 0;
+    }
+
+    .testi-slide-box .elementskit-watermark-icon>svg {
+        width: 100px !important;
+        opacity: 0.1 !important;
+    }
+
+    .mover-1 a:before {
+        top: 6px;
+
+    }
+
+    .client-inner-section .elementor-column {
+        width: 47%;
+        margin: 0 auto;
+    }
+
+    .plan-section-us .elementor-widget-text-editor {
+        margin-bottom: 0;
+    }
+
+    .full-wrapper-padd .elementor-column-gap-default,
+    .full-slider-padd .n2-ss-layer-row-inner {
+        padding: 0;
+    }
+
+    #popmake-2099 {
+        width: 90% !important;
+    }
+
+    #form-container {
+        min-height: 500px;
+    }
+
+    .contact-form-custom form .inquiry-form input,
+    form .inquiry-form .custom-row textarea {
+        width: 100%;
+    }
+
+    .Production-plant-wrapper .elementor-icon-box-icon {
+        padding: 6px 7px;
+        border: none;
+        box-shadow: none;
+        margin-right: 0 !important;
+    }
+
+    .padd-lr-desktop {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .padd-lr-small {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .gray-wapper-section .elementor-container {
+        min-height: 180px !important;
+    }
+
+    .gradient-contact-box {
+        padding: 0 !important;
+    }
+
+    .location-shadow-box {
+        margin: -142px auto 0;
+        padding-bottom: 0;
+    }
+
+    .get-in-touch-section h2.elementor-heading-title {
+        font-size: 30px !important;
+    }
+
+    .get-in-touch-section h3 {
+        font-size: 16px !important;
+        line-height: 26px !important;
+    }
+
+    /* .get-in-touch-section {
+        padding-bottom: 2rem;
+    } */
+
+    .contact-shadow-box {
+        width: 100% !important;
+    }
+
+    .ethanol-key-section .elementor-widget-container {
+        height: auto;
+    }
+
+    .download-brochure-popup .inquiry-form {
+        padding: 0 10px;
+    }
+
+    .category-projects h1.entry-title {
+        font-size: 16px;
+        line-height: 26px;
+        max-width: max-content;
+        padding: 0 15px;
+    }
+
+    .single-post .type-post.category-projects img {
+        height: 500px;
+        width: 100%;
+        object-fit: fill;
+    }
+
+    .blog-detail-box {
+        padding: 15px;
+        margin-top: 4px;
+        margin-bottom: 2rem;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .blog-detail-box p,
+    .blog-detail-box span {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .blog-detail-box h2,
+    .blog-detail-box h3 {
+        font-size: 16px;
+    }
+
+    .award-image-wrap .elementor-widget-container {
+        position: relative;
+        top: -10px;
+    }
+
+    .about-mission-tab {
+        margin-top: 0;
+    }
+
+    .journey-slide {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .journey-content {
+        padding-top: 0;
+    }
+
+    .journey-slider {
+        margin: 20px auto;
+    }
+
+    .journey-desc {
+        text-align: left;
+    }
+
+    .journey-year {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .journey-content:after {
+        top: 15px;
+    }
+
+    .pum-theme-1739 .pum-container,
+    .pum-theme-enterprise-blue .pum-container {
+        width: 280px !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+    }
+
+    .modal-slide-form .inquiry-form .custom-row .wpcf7-form-control {
+        padding: .3rem 1rem;
+        font-size: 13px;
+    }
+
+    .modal-slide-form .inquiry-form .custom-row label {
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+
+    .pum-theme-1739 .pum-content+.pum-close,
+    .pum-theme-enterprise-blue .pum-content+.pum-close {
+        height: 20px !important;
+        width: 20px !important;
+        line-height: 12px !important;
+        font-size: 18px !important;
+    }
+
+    .modal-slide-form .inquiry-form {
+        padding: 20px 20px 15px;
+    }
+
+    .modal-slide-form .inquiry-form textarea {
+        height: 55px;
+    }
+
+    .custom-blog-list .elementor-post__text {
+        padding: 0 12px 20px;
+    }
+}
+
+@media only screen and (max-width:575px) {
+
+    .inquiry-form .custom-row .col-md-6,
+    .inquiry-form .custom-row .col-md-12 {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .contact-form-custom form .inquiry-form select {
+        font-size: 14px;
+        padding: 0.42rem 0.5rem;
+    }
+
+    .inquiry-form .custom-row {
+        margin-bottom: 0;
+    }
+
+    .inquiry-form h3 {
+        margin-bottom: 1rem;
+        font-size: 16px;
+    }
+
+    .contact-form-custom form .inquiry-form input {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+
+    .gradient-contact-box .elementor-widget-wrap {
+        margin: 0 !important;
+        padding: 15px !important;
+    }
+
+    .gradient-contact-box .contact-social-icon .elementor-widget-wrap {
+        padding: 0 !important;
+    }
+
+    .site-main.post-6661 {
+        height: auto;
+    }
+
+    .single-inquiry-form .inquiry-form {
+        width: 95%;
+    }
+
+    .inquiry-logo .elementor-widget-image img {
+        width: 220px;
+    }
+
+    .single-inquiry-form .inquiry-form h3 {
+        padding: 16px;
+    }
+
+    .single-inquiry-form .inquiry-form .custom-row textarea {
+        height: 80px;
+    }
+
+    .single-inquiry-form .wpcf7 form.invalid .wpcf7-response-output {
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .blog-detail-box {
+        padding: 5px;
+    }
+
+    .blog-detail-box h2,
+    .blog-detail-box h3 {
+        line-height: 25px;
+    }
+
+    .blog-detail-box ul,
+    .blog-detail-box ol {
+        padding-left: 15px;
+    }
+
+    .about-top-text-area h2 {
+        font-size: 20px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .about-top-text-area .elementskit-info-box-title {
+        margin-bottom: 8px !important;
+        font-size: 18px !important;
+    }
+
+    .achievement-count-text {
+        padding: 50px 0 !important;
+    }
+
+    .achievement-count-text .elementor-widget-image img {
+        width: 35px !important;
+    }
+
+    .achievement-count-text .elementor-counter-number {
+        font-size: 22px;
+    }
+
+    .achievement-count-text .elementor-counter-number-suffix {
+        font-size: 20px;
+    }
+
+    .about-mission-tab .nav.nav-tabs.elementskit-fullwidth-tab {
+        flex-direction: column;
+    }
+
+    .about-mission-section .elementkit-nav-link {
+        padding: 18px !important;
+    }
+
+    .about-mission-section .elementkit-nav-link .elementskit-tab-title {
+        font-size: 16px;
+    }
+
+    .about-mission-tab .elementkit-tab-content {
+        padding: 15px 15px 30px 15px;
+        margin-bottom: 2rem;
+        width: 95%;
+    }
+
+    .about-mission-tab .elementkit-tab-content .animated h3 {
+        font-size: 20px;
+    }
+
+    .founder-pic-area .elementor-widget-container .attachment-large {
+        width: 200px;
+    }
+
+    .dotted-bg-shape .elementskit-section-title {
+        font-size: 20px !important;
+    }
+
+    .journey-slider .slick-arrow:before {
+        font-size: 26px;
+        top: 2px;
+    }
+
+    .journey-slider .slick-arrow {
+        width: 30px;
+        height: 30px !important;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .Thank-you-box {
+        width: 90% !important;
+    }
+
+    .highlight-sections-gradient .elementor-icon-box-wrapper {
+        margin-bottom: 8px;
+        margin-left: 5px;
+    }
+
+    .highlight-sections-gradient h3.elementor-icon-box-title {
+        margin-top: -4px;
+    }
+
+    .top-inner-page-header {
+        padding: 2rem 0;
+    }
+
+    .top-inner-page-header p {
+        width: 90%;
+    }
+
+    .top-inner-page-header h1 {
+        font-size: 28px !important;
+    }
+
+    .inquiry-form .custom-row .col-md-12 {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .journey-slider .slick-arrow:before {
+        font-size: 25px;
+    }
+
+    .journey-slider .slick-arrow {
+        width: 30px;
+        height: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .Thank-you-box {
+        padding: 1rem;
+        width: 90% !important;
+    }
+
+    .Thank-you-box strong {
+        font-size: 14px;
+    }
+
+    .custom-container-lg .elementor-container {
+        padding: 0 10px;
+    }
+
+}
+
+/********* RESPONSIVE MEDIA QUERY END **********/
